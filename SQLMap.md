@@ -1,4 +1,5 @@
 TASK 1: Introduction
+
 Let’s talk about one of the sneakiest tricks in the hacker’s toolkit: SQL Injection! Imagine a website as a polite waiter taking orders from users and delivering them to a database “kitchen” in the back. When you search for something or log in, you’re basically telling the waiter, “Hey, go grab this info from the kitchen.” And the waiter (website) sends your request to the database in SQL, the language it understands.
 
 Now, here’s where things get spicy: SQL Injection is like whispering extra instructions to the waiter to mess with the kitchen. Instead of just ordering a burger, you slyly add, “And also sneak me the manager’s password list.” The unassuming waiter takes it back to the kitchen without question, leading to all sorts of mayhem!
@@ -58,6 +59,7 @@ Question: What would be the full command of SQLMap for extracting all tables fro
 Answer: sqlmap -u http://sqlmaptesting.thm/search/cat=1 -D ***********
 
 TASK 4: Practical Exercise
+
 Here’s a quick walkthrough to test SQL injection on the login page using SQLMap:
 
 Start the AttackBox and Locate the URL:
